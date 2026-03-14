@@ -1,0 +1,22 @@
+# --- Consigne spécifique ---
+# Exclure le répertoire d'implémentation
+impl/
+
+# --- Fichiers de projet Gowin ---
+# On garde les fichiers .gprj et les contraintes .cst / .sdc
+# Mais on ignore les fichiers temporaires de l'IDE
+*.temp
+*.bak
+
+# --- Rapports et Logs de synthèse ---
+# Gowin génère souvent ces fichiers à la racine ou dans impl/
+*.log
+*.rpt
+*.txt
+*.xml
+*.json
+
+
+# --- Fichiers système et divers ---
+.DS_Store
+Thumbs.db
