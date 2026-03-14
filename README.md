@@ -58,3 +58,17 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
    ```bash
    make clean
    make all
+   
+### ⚡ Quick Start
+
+  Since all Tang boards feature onboard USB-JTAG and HDMI connectors:
+  * Connect the board via USB-C for power.
+  * Programming.
+  * Connect the HDMI port to your monitor.
+  * Open your favorite serial terminal (115200 baud) to interact with the SoC.
+
+### 📚 Credits
+ * UART, Timer, & Boot Memory: Based on Grug Huhler's work.
+ * PicoRV32 CPU: By Claire Xenia Wolf.
+ * HDMI Core: Based on Sipeed's examples.
+   
