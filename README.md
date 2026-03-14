@@ -7,7 +7,8 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 * **Processor:** PicoRV32 RISC-V CPU.
 * **Boot Memory:** 8KB BSRAM.
 * **Memory Expansion:** Up to 64KB BSRAM (configurable in 8KB steps).
-* **Clock Management:** * Automatic selection of clock settings and video parameters based on the target hardware.
+* **Clock Management:** 
+    * Automatic selection of clock settings and video parameters based on the target hardware.
     * Selectable CPU frequency: **12, 48, or 60 MHz** (depending on hardware capabilities).
 * **Video Output:** HDMI Text Mode with 16 colors.
 * **Peripherals:**
@@ -20,7 +21,7 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 | Board | CPU Freq (MHz) | 1360x768 @ 50Hz (80x32 char) | 1366x768 @ 60Hz (80x32 char) | 1680x1050 @ 60Hz (96x42 char) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Tang Nano 9K** | 12, 48 | ✅ | - | - |
-| **Tang Nano 20K** | 12, 48 | - | ✅ | ✅ |
+| **Tang Nano 20K** | 12, 48 | - | ✅ | - |
 | **Tang Primer 20K** | 12, 48, 60 | - | ✅ | ✅ |
 | **Tang Primer 25K** | 12, 48, 60 | - | ✅ | ✅ |
 
