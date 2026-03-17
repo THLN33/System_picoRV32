@@ -1,6 +1,7 @@
 # --- Consigne spécifique ---
 # Exclure le répertoire d'implémentation
 impl/
+others/
 
 # --- Fichiers de projet Gowin ---
 # On garde les fichiers .gprj et les contraintes .cst / .sdc
