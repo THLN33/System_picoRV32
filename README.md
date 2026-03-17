@@ -9,12 +9,12 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 * **Memory Expansion:** Up to 64KB BSRAM (configurable in 8KB steps).
 * **Clock Management:** 
     * Automatic selection of clock settings and video parameters based on the target hardware.
-    * Selectable CPU frequency: **12, 48, or 60 MHz** (depending on hardware capabilities).
+    * Selectable CPU frequency: **24, 48, or 60 MHz** (depending on hardware capabilities).
 * **Video Output:** HDMI Text Mode with 16 colors.
 * **Peripherals:**
     * Simple 8-bit GPIO port.
     * Integrated UART (Serial console).
-    * Standard Timer.
+    * Timer with mode up/down counter.
 
 ## 📋 Supported Boards & Resolutions
 
@@ -67,7 +67,7 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
   * Open your favorite serial terminal (115200 baud) to interact with the SoC.
 
 ### 📚 Credits
- * UART, Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
+ * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
  * PicoRV32, UART: By Claire Xenia Wolf [PicoRV32](https://github.com/YosysHQ/picorv32).
  * HDMI Core: Based on Sipeed's examples [HDMI](https://github.com/sipeed/TangMega-138K-example/hdmi_colorbar/eda_proj).
    
