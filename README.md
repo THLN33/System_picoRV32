@@ -15,8 +15,9 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
     * Simple 8-bit GPIO port.
     * Integrated UART (Serial console).
     * Timer with mode up/down counter.
-	
-![System_picoRV32 HDMI Output](images/system_picorv32_80x32.jpg)	
+
+[![Watch demo](images/system_picorv32_80x32.jpg)](https://www.youtube.com/watch?v=vhtTSA-XP9c)	
+
 
 ## 📋 Supported Boards & Resolutions
 
