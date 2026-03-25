@@ -1,6 +1,6 @@
 # PicoRV32 SoC for Sipeed Tang FPGAs
 
-This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically optimized for the **Sipeed Tang Nano** and **Tang Primer** series. It features a configurable memory architecture and an integrated HDMI text output.
+This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically optimized for the **Sipeed Tang Nano** and **Sipeed Tang Primer** series. It features a configurable memory architecture and an integrated HDMI text output.
 
 ## 🚀 Key Features
 
@@ -42,13 +42,19 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 
 ## 📊 Hardware Resource Utilization
 
-To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller scales across different boards using the Gowin EDA:
-| Resource | Tang Nano 9K | Tang Nano 20K |	Tang Primer 20K | Tang Primer 25K |
-|Logic (LUT/ALU) | 48% | 21% | 20% | 22% |
-|Registers | 21% | 9% | 9% | 11% |
-|BSRAM | 100% | 100% | 100% | 83% |
-|DSP Blocks	| 20% |	9% | 9% | 17% |
+To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller scales across different boards using the Gowin EDA
 
+| Resource        | Tang Nano 9K | Tang Nano 20K | Tang Primer 20K | Tang Primer 25K |
+|-----------------|--------------|---------------|-----------------|:---------------:|
+| Logic (LUT/ALU) | 48%          | 21%           | 20%             | 22%             |
+| Registers       | 21%          | 9%            | 9%              | 11%             |
+| BSRAM           | 100%         | 100%          | 100%            | 83%             |
+| DSP Blocks      | 20%          | 9%            | 9%              | 17%             |
+
+### 📚 Credits
+ * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
+ * PicoRV32, UART: By Claire Xenia Wolf [PicoRV32](https://github.com/YosysHQ/picorv32).
+ * HDMI Core: Based on Sipeed's examples [HDMI](https://github.com/sipeed/TangMega-138K-example/hdmi_colorbar/eda_proj).
 ---
 
 ## 🛠️ How to Build
@@ -65,7 +71,7 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
 
 ### Software Compilation
 1. Navigate to the `c_code/` directory.
-2. Run the build.bat
+2. Run the **`build.bat`**
    
 ### ⚡ Quick Start
   Since all Tang boards feature onboard USB-JTAG and HDMI connectors:
@@ -74,8 +80,5 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
   * Connect the HDMI port to your monitor.
   * Open your favorite serial terminal (115200 baud) to interact with the SoC.
 
-### 📚 Credits
- * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
- * PicoRV32, UART: By Claire Xenia Wolf [PicoRV32](https://github.com/YosysHQ/picorv32).
- * HDMI Core: Based on Sipeed's examples [HDMI](https://github.com/sipeed/TangMega-138K-example/hdmi_colorbar/eda_proj).
+
    
