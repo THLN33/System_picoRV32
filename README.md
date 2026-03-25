@@ -23,9 +23,9 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 | **Tang Nano 9K** | 24, 48 | ✅ | - | - |
 | **Tang Nano 20K** | 24, 48 | - | ✅ | - |
 | **Tang Primer 20K** | 24, 48, 60 | - | ✅ | ✅ |
-| **Tang Primer 25K** | 24, 48, 60* | - | ✅ | ✅ |
+| **Tang Primer 25K** | 24, 48, 60 (1) | - | ✅ | ✅ |
 
- * 60.7MHz when usign 1366x768 résolution
+(1) 60.7MHz when usign 1366x768 résolution
 
 ## 🎨 HDMI Text Mode Colors
 
