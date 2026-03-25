@@ -18,7 +18,6 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 
 [![Watch demo](images/system_picorv32_80x32.jpg)](https://www.youtube.com/watch?v=vhtTSA-XP9c)	
 
-
 ## 📋 Supported Boards & Resolutions
 
 | Board | CPU Freq (MHz) | 1360x768 @ 50Hz (80x32 char) | 1366x768 @ 60Hz (80x32 char) | 1680x1050 @ 60Hz (96x42 char) |
@@ -71,6 +70,36 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
 2. Select your device in `Project -> Configuration`.
 3. Check the `.cst` (Constraints) file to ensure it matches your board's pinout.
 4. Run the synthesis and place-and-route to generate the bitstream.
+
+## 📸 Hardware Setup & Connections
+
+This section showcases the physical connections required to route the FPGA's differential signals to an HDMI connector for each board.
+
+### Tang Nano 9K
+This setup shows the standard connection used on the 9K board.<br>
+<strong>Note: connect usb cable before hdmi!</strong>
+<p align="center">
+  <img src="./src/boards/tn9k/tn9k.jpg" alt="Tang Nano 9K HDMI Connections" width="300px">
+</p>
+
+### Tang Nano 20K (Recommended)
+Do not care about connections on row-header!
+<p align="center">
+  <img src="./src/boards/tn20k/tn20k.jpg" alt="Tang Nano 20K HDMI Connections" width="300px">
+</p>
+
+### Tang Primer 20K
+Implemented using the PMOD headers on the Primer baseboard.
+<p align="center">
+  <img src="./src/boards/tp20k/tp20k.jpg"  alt="Tang Primer 20K HDMI Connections" width="300px">
+</p>
+
+### Tang Primer 25K
+Implemented using the PMOD headers on the Primer baseboard.<br>
+Leveraging the extra BSRAM of the 25K for advanced feature.
+<p align="center">
+  <img src="./src/boards/tp25k/tp25k.jpg" alt="Tang Primer 25K HDMI Connections" width="300px">
+</p>
 
 ### Software Compilation
 1. Navigate to the `c_code/` directory.
