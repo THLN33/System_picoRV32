@@ -1,0 +1,303 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_p" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="0" module_name="top_board" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">clk_p</Signal>
+            <Bus capture_enable="true" name="test_gen1/timing_h_pos[13:0]">
+                <Signal>test_gen1/timing_h_pos[13]</Signal>
+                <Signal>test_gen1/timing_h_pos[12]</Signal>
+                <Signal>test_gen1/timing_h_pos[11]</Signal>
+                <Signal>test_gen1/timing_h_pos[10]</Signal>
+                <Signal>test_gen1/timing_h_pos[9]</Signal>
+                <Signal>test_gen1/timing_h_pos[8]</Signal>
+                <Signal>test_gen1/timing_h_pos[7]</Signal>
+                <Signal>test_gen1/timing_h_pos[6]</Signal>
+                <Signal>test_gen1/timing_h_pos[5]</Signal>
+                <Signal>test_gen1/timing_h_pos[4]</Signal>
+                <Signal>test_gen1/timing_h_pos[3]</Signal>
+                <Signal>test_gen1/timing_h_pos[2]</Signal>
+                <Signal>test_gen1/timing_h_pos[1]</Signal>
+                <Signal>test_gen1/timing_h_pos[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/pixel_x[13:0]">
+                <Signal>test_gen1/pixel_x[13]</Signal>
+                <Signal>test_gen1/pixel_x[12]</Signal>
+                <Signal>test_gen1/pixel_x[11]</Signal>
+                <Signal>test_gen1/pixel_x[10]</Signal>
+                <Signal>test_gen1/pixel_x[9]</Signal>
+                <Signal>test_gen1/pixel_x[8]</Signal>
+                <Signal>test_gen1/pixel_x[7]</Signal>
+                <Signal>test_gen1/pixel_x[6]</Signal>
+                <Signal>test_gen1/pixel_x[5]</Signal>
+                <Signal>test_gen1/pixel_x[4]</Signal>
+                <Signal>test_gen1/pixel_x[3]</Signal>
+                <Signal>test_gen1/pixel_x[2]</Signal>
+                <Signal>test_gen1/pixel_x[1]</Signal>
+                <Signal>test_gen1/pixel_x[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/addr_memchar[13:0]">
+                <Signal>test_gen1/addr_memchar[13]</Signal>
+                <Signal>test_gen1/addr_memchar[12]</Signal>
+                <Signal>test_gen1/addr_memchar[11]</Signal>
+                <Signal>test_gen1/addr_memchar[10]</Signal>
+                <Signal>test_gen1/addr_memchar[9]</Signal>
+                <Signal>test_gen1/addr_memchar[8]</Signal>
+                <Signal>test_gen1/addr_memchar[7]</Signal>
+                <Signal>test_gen1/addr_memchar[6]</Signal>
+                <Signal>test_gen1/addr_memchar[5]</Signal>
+                <Signal>test_gen1/addr_memchar[4]</Signal>
+                <Signal>test_gen1/addr_memchar[3]</Signal>
+                <Signal>test_gen1/addr_memchar[2]</Signal>
+                <Signal>test_gen1/addr_memchar[1]</Signal>
+                <Signal>test_gen1/addr_memchar[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/char[6:0]">
+                <Signal>test_gen1/char[6]</Signal>
+                <Signal>test_gen1/char[5]</Signal>
+                <Signal>test_gen1/char[4]</Signal>
+                <Signal>test_gen1/char[3]</Signal>
+                <Signal>test_gen1/char[2]</Signal>
+                <Signal>test_gen1/char[1]</Signal>
+                <Signal>test_gen1/char[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/mode[2:0]">
+                <Signal>test_gen1/mode[2]</Signal>
+                <Signal>test_gen1/mode[1]</Signal>
+                <Signal>test_gen1/mode[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/color_bgnd[23:0]">
+                <Signal>test_gen1/color_bgnd[23]</Signal>
+                <Signal>test_gen1/color_bgnd[22]</Signal>
+                <Signal>test_gen1/color_bgnd[21]</Signal>
+                <Signal>test_gen1/color_bgnd[20]</Signal>
+                <Signal>test_gen1/color_bgnd[19]</Signal>
+                <Signal>test_gen1/color_bgnd[18]</Signal>
+                <Signal>test_gen1/color_bgnd[17]</Signal>
+                <Signal>test_gen1/color_bgnd[16]</Signal>
+                <Signal>test_gen1/color_bgnd[15]</Signal>
+                <Signal>test_gen1/color_bgnd[14]</Signal>
+                <Signal>test_gen1/color_bgnd[13]</Signal>
+                <Signal>test_gen1/color_bgnd[12]</Signal>
+                <Signal>test_gen1/color_bgnd[11]</Signal>
+                <Signal>test_gen1/color_bgnd[10]</Signal>
+                <Signal>test_gen1/color_bgnd[9]</Signal>
+                <Signal>test_gen1/color_bgnd[8]</Signal>
+                <Signal>test_gen1/color_bgnd[7]</Signal>
+                <Signal>test_gen1/color_bgnd[6]</Signal>
+                <Signal>test_gen1/color_bgnd[5]</Signal>
+                <Signal>test_gen1/color_bgnd[4]</Signal>
+                <Signal>test_gen1/color_bgnd[3]</Signal>
+                <Signal>test_gen1/color_bgnd[2]</Signal>
+                <Signal>test_gen1/color_bgnd[1]</Signal>
+                <Signal>test_gen1/color_bgnd[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/color_text[23:0]">
+                <Signal>test_gen1/color_text[23]</Signal>
+                <Signal>test_gen1/color_text[22]</Signal>
+                <Signal>test_gen1/color_text[21]</Signal>
+                <Signal>test_gen1/color_text[20]</Signal>
+                <Signal>test_gen1/color_text[19]</Signal>
+                <Signal>test_gen1/color_text[18]</Signal>
+                <Signal>test_gen1/color_text[17]</Signal>
+                <Signal>test_gen1/color_text[16]</Signal>
+                <Signal>test_gen1/color_text[15]</Signal>
+                <Signal>test_gen1/color_text[14]</Signal>
+                <Signal>test_gen1/color_text[13]</Signal>
+                <Signal>test_gen1/color_text[12]</Signal>
+                <Signal>test_gen1/color_text[11]</Signal>
+                <Signal>test_gen1/color_text[10]</Signal>
+                <Signal>test_gen1/color_text[9]</Signal>
+                <Signal>test_gen1/color_text[8]</Signal>
+                <Signal>test_gen1/color_text[7]</Signal>
+                <Signal>test_gen1/color_text[6]</Signal>
+                <Signal>test_gen1/color_text[5]</Signal>
+                <Signal>test_gen1/color_text[4]</Signal>
+                <Signal>test_gen1/color_text[3]</Signal>
+                <Signal>test_gen1/color_text[2]</Signal>
+                <Signal>test_gen1/color_text[1]</Signal>
+                <Signal>test_gen1/color_text[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/addr_pattern[12:0]">
+                <Signal>test_gen1/addr_pattern[12]</Signal>
+                <Signal>test_gen1/addr_pattern[11]</Signal>
+                <Signal>test_gen1/addr_pattern[10]</Signal>
+                <Signal>test_gen1/addr_pattern[9]</Signal>
+                <Signal>test_gen1/addr_pattern[8]</Signal>
+                <Signal>test_gen1/addr_pattern[7]</Signal>
+                <Signal>test_gen1/addr_pattern[6]</Signal>
+                <Signal>test_gen1/addr_pattern[5]</Signal>
+                <Signal>test_gen1/addr_pattern[4]</Signal>
+                <Signal>test_gen1/addr_pattern[3]</Signal>
+                <Signal>test_gen1/addr_pattern[2]</Signal>
+                <Signal>test_gen1/addr_pattern[1]</Signal>
+                <Signal>test_gen1/addr_pattern[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/pattern_data_out[15:0]">
+                <Signal>test_gen1/pattern_data_out[15]</Signal>
+                <Signal>test_gen1/pattern_data_out[14]</Signal>
+                <Signal>test_gen1/pattern_data_out[13]</Signal>
+                <Signal>test_gen1/pattern_data_out[12]</Signal>
+                <Signal>test_gen1/pattern_data_out[11]</Signal>
+                <Signal>test_gen1/pattern_data_out[10]</Signal>
+                <Signal>test_gen1/pattern_data_out[9]</Signal>
+                <Signal>test_gen1/pattern_data_out[8]</Signal>
+                <Signal>test_gen1/pattern_data_out[7]</Signal>
+                <Signal>test_gen1/pattern_data_out[6]</Signal>
+                <Signal>test_gen1/pattern_data_out[5]</Signal>
+                <Signal>test_gen1/pattern_data_out[4]</Signal>
+                <Signal>test_gen1/pattern_data_out[3]</Signal>
+                <Signal>test_gen1/pattern_data_out[2]</Signal>
+                <Signal>test_gen1/pattern_data_out[1]</Signal>
+                <Signal>test_gen1/pattern_data_out[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/shift_reg[15:0]">
+                <Signal>test_gen1/shift_reg[15]</Signal>
+                <Signal>test_gen1/shift_reg[14]</Signal>
+                <Signal>test_gen1/shift_reg[13]</Signal>
+                <Signal>test_gen1/shift_reg[12]</Signal>
+                <Signal>test_gen1/shift_reg[11]</Signal>
+                <Signal>test_gen1/shift_reg[10]</Signal>
+                <Signal>test_gen1/shift_reg[9]</Signal>
+                <Signal>test_gen1/shift_reg[8]</Signal>
+                <Signal>test_gen1/shift_reg[7]</Signal>
+                <Signal>test_gen1/shift_reg[6]</Signal>
+                <Signal>test_gen1/shift_reg[5]</Signal>
+                <Signal>test_gen1/shift_reg[4]</Signal>
+                <Signal>test_gen1/shift_reg[3]</Signal>
+                <Signal>test_gen1/shift_reg[2]</Signal>
+                <Signal>test_gen1/shift_reg[1]</Signal>
+                <Signal>test_gen1/shift_reg[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="test_gen1/out_video_pixel[23:0]">
+                <Signal>test_gen1/out_video_pixel[23]</Signal>
+                <Signal>test_gen1/out_video_pixel[22]</Signal>
+                <Signal>test_gen1/out_video_pixel[21]</Signal>
+                <Signal>test_gen1/out_video_pixel[20]</Signal>
+                <Signal>test_gen1/out_video_pixel[19]</Signal>
+                <Signal>test_gen1/out_video_pixel[18]</Signal>
+                <Signal>test_gen1/out_video_pixel[17]</Signal>
+                <Signal>test_gen1/out_video_pixel[16]</Signal>
+                <Signal>test_gen1/out_video_pixel[15]</Signal>
+                <Signal>test_gen1/out_video_pixel[14]</Signal>
+                <Signal>test_gen1/out_video_pixel[13]</Signal>
+                <Signal>test_gen1/out_video_pixel[12]</Signal>
+                <Signal>test_gen1/out_video_pixel[11]</Signal>
+                <Signal>test_gen1/out_video_pixel[10]</Signal>
+                <Signal>test_gen1/out_video_pixel[9]</Signal>
+                <Signal>test_gen1/out_video_pixel[8]</Signal>
+                <Signal>test_gen1/out_video_pixel[7]</Signal>
+                <Signal>test_gen1/out_video_pixel[6]</Signal>
+                <Signal>test_gen1/out_video_pixel[5]</Signal>
+                <Signal>test_gen1/out_video_pixel[4]</Signal>
+                <Signal>test_gen1/out_video_pixel[3]</Signal>
+                <Signal>test_gen1/out_video_pixel[2]</Signal>
+                <Signal>test_gen1/out_video_pixel[1]</Signal>
+                <Signal>test_gen1/out_video_pixel[0]</Signal>
+            </Bus>
+            <Bus capture_enable="false" name="test_gen1/video_pixel[23:0]">
+                <Signal>test_gen1/video_pixel[23]</Signal>
+                <Signal>test_gen1/video_pixel[22]</Signal>
+                <Signal>test_gen1/video_pixel[21]</Signal>
+                <Signal>test_gen1/video_pixel[20]</Signal>
+                <Signal>test_gen1/video_pixel[19]</Signal>
+                <Signal>test_gen1/video_pixel[18]</Signal>
+                <Signal>test_gen1/video_pixel[17]</Signal>
+                <Signal>test_gen1/video_pixel[16]</Signal>
+                <Signal>test_gen1/video_pixel[15]</Signal>
+                <Signal>test_gen1/video_pixel[14]</Signal>
+                <Signal>test_gen1/video_pixel[13]</Signal>
+                <Signal>test_gen1/video_pixel[12]</Signal>
+                <Signal>test_gen1/video_pixel[11]</Signal>
+                <Signal>test_gen1/video_pixel[10]</Signal>
+                <Signal>test_gen1/video_pixel[9]</Signal>
+                <Signal>test_gen1/video_pixel[8]</Signal>
+                <Signal>test_gen1/video_pixel[7]</Signal>
+                <Signal>test_gen1/video_pixel[6]</Signal>
+                <Signal>test_gen1/video_pixel[5]</Signal>
+                <Signal>test_gen1/video_pixel[4]</Signal>
+                <Signal>test_gen1/video_pixel[3]</Signal>
+                <Signal>test_gen1/video_pixel[2]</Signal>
+                <Signal>test_gen1/video_pixel[1]</Signal>
+                <Signal>test_gen1/video_pixel[0]</Signal>
+            </Bus>
+            <Signal capture_enable="false">test_gen1/video_hsync</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>test_gen1/video_den</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="test_gen1/char[6:0]">
+                        <Signal>test_gen1/char[6]</Signal>
+                        <Signal>test_gen1/char[5]</Signal>
+                        <Signal>test_gen1/char[4]</Signal>
+                        <Signal>test_gen1/char[3]</Signal>
+                        <Signal>test_gen1/char[2]</Signal>
+                        <Signal>test_gen1/char[1]</Signal>
+                        <Signal>test_gen1/char[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Bus restorename="test_gen1/pixel_y[13:0]">
+                        <Signal>test_gen1/pixel_y[13]</Signal>
+                        <Signal>test_gen1/pixel_y[12]</Signal>
+                        <Signal>test_gen1/pixel_y[11]</Signal>
+                        <Signal>test_gen1/pixel_y[10]</Signal>
+                        <Signal>test_gen1/pixel_y[9]</Signal>
+                        <Signal>test_gen1/pixel_y[8]</Signal>
+                        <Signal>test_gen1/pixel_y[7]</Signal>
+                        <Signal>test_gen1/pixel_y[6]</Signal>
+                        <Signal>test_gen1/pixel_y[5]</Signal>
+                        <Signal>test_gen1/pixel_y[4]</Signal>
+                        <Signal>test_gen1/pixel_y[3]</Signal>
+                        <Signal>test_gen1/pixel_y[2]</Signal>
+                        <Signal>test_gen1/pixel_y[1]</Signal>
+                        <Signal>test_gen1/pixel_y[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="010R101" value1="0000000" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000001100" value1="00000000000000" trigger="2"/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M1&amp;M2</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1000101101101011</GAO_ID>
+</GAO_CONFIG>

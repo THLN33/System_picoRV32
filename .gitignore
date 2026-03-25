@@ -2,6 +2,7 @@
 # Exclure le répertoire d'implémentation
 impl/
 others/
+c_code/
 
 # --- Fichiers de projet Gowin ---
 # On garde les fichiers .gprj et les contraintes .cst / .sdc

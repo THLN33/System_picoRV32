@@ -23,7 +23,9 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 | **Tang Nano 9K** | 24, 48 | ✅ | - | - |
 | **Tang Nano 20K** | 24, 48 | - | ✅ | - |
 | **Tang Primer 20K** | 24, 48, 60 | - | ✅ | ✅ |
-| **Tang Primer 25K** | 24, 48, 60 | - | ✅ | ✅ |
+| **Tang Primer 25K** | 24, 48, 60* | - | ✅ | ✅ |
+
+ * 60.7MHz when usign 1366x768 résolution
 
 ## 🎨 HDMI Text Mode Colors
 
@@ -37,6 +39,15 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 | 5 | Magenta | 13 | Light Magenta |
 | 6 | Brown/Yellow | 14 | Yellow |
 | 7 | Light Gray | 15 | White |
+
+## 📊 Hardware Resource Utilization
+
+To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller scales across different boards using the Gowin EDA:
+| Resource | Tang Nano 9K | Tang Nano 20K |	Tang Primer 20K | Tang Primer 25K |
+|Logic (LUT/ALU) | 48% | 21% | 20% | 22% |
+|Registers | 21% | 9% | 9% | 11% |
+|BSRAM | 100% | 100% | 100% | 83% |
+|DSP Blocks	| 20% |	9% | 9% | 17% |
 
 ---
 
@@ -54,14 +65,11 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 
 ### Software Compilation
 1. Navigate to the `c_code/` directory.
-2. Run the Makefile:
-   ```bash
-   make clean
-   make all
+2. Run the build.bat
    
 ### ⚡ Quick Start
   Since all Tang boards feature onboard USB-JTAG and HDMI connectors:
-  * Connect the board via USB-C for power.
+  * Connect the board via USB-C for power first.
   * Programming.
   * Connect the HDMI port to your monitor.
   * Open your favorite serial terminal (115200 baud) to interact with the SoC.

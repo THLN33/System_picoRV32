@@ -1,0 +1,41 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/boards/tp25k/clk_producer.v" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/config.vh" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/gowin_dcs/gowin_dcs.v" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/gowin_dpb/gowin_vram_dpb.v" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/gowin_prom/gowin_pattern_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/top_board_tp25k.v" type="file.verilog" enable="1"/>
+        <File path="src/bus_interconnect.sv" type="file.verilog" enable="1"/>
+        <File path="src/cpu/cpu_wrapper.sv" type="file.verilog" enable="1"/>
+        <File path="src/cpu/picorv32.v" type="file.verilog" enable="1"/>
+        <File path="src/divider.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/dvi-tx/dvi_tx_clk_drv.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/dvi-tx/dvi_tx_tmds_enc.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/dvi-tx/dvi_tx_tmds_phy.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/dvi-tx/dvi_tx_top.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/text_color.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/video_text.sv" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/video_timing_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/main_system.sv" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/port.sv" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/simpleuart.sv" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/system_config.v" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/timer.sv" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/uart_wrap.sv" type="file.verilog" enable="1"/>
+        <File path="src/picorv32_bus_pkg.sv" type="file.verilog" enable="1"/>
+        <File path="src/reset.v" type="file.verilog" enable="1"/>
+        <File path="src/sram/gowin_sp/gowin_sp.v" type="file.verilog" enable="1"/>
+        <File path="src/sram/sram.sv" type="file.verilog" enable="1"/>
+        <File path="src/sram/sram_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/sram/sram_ext.sv" type="file.verilog" enable="1"/>
+        <File path="src/boards/tp25k/sipeed_tang_primer_25k.cst" type="file.cst" enable="1"/>
+        <File path="src/boards/tp25k/sipeed_tang_primer_25k.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
