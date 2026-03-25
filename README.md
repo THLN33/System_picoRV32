@@ -22,7 +22,7 @@ This project implements a RISC-V SoC based on the **PicoRV32** CPU, specifically
 
 | Board | CPU Freq (MHz) | 1360x768 @ 50Hz (80x32 char) | 1366x768 @ 60Hz (80x32 char) | 1680x1050 @ 60Hz (96x42 char) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Tang Nano 9K** | 24, 48 | ✅ | - | - |
+| **Tang Nano 9K** | 24 | ✅ | - | - |
 | **Tang Nano 20K** | 24, 48 | - | ✅ | - |
 | **Tang Primer 20K** | 24, 48, 60 | - | ✅ | ✅ |
 | **Tang Primer 25K** | 24, 48, 60 (1) | - | ✅ | ✅ |
@@ -55,7 +55,7 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
 
 ### 📚 Credits
  * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
- * PicoRV32, UART: By Claire Xenia Wolf [PicoRV32](https://github.com/YosysHQ/picorv32).
+ * PicoRV32, UART: By Claire Xenia Wolf [picoRV32](https://github.com/YosysHQ/picorv32).
  * HDMI Core: Based on Sipeed's examples [HDMI](https://github.com/sipeed/TangMega-138K-example/hdmi_colorbar/eda_proj).
 ---
 
