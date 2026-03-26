@@ -1,10 +1,27 @@
-// Arial_round_16x24.c
-// Font type    : Full (128 characters)
-// Font size    : 16x24 pixels
-// Memory usage : 6144 bytes
+/******************************************************************************
+ * @file    Arial_round_16x24.c
+ * @brief   Font definition and Hex generator for Arial Round 16x24.
+ * * @details This file contains the bitmap data for an Arial Round font face
+ * with a resolution of 16x24 pixels per character. It includes:
+ * - A static data array for standard ASCII characters.
+ * - A utility to generate custom small square patterns (first 32 chars).
+ * - A generator function to export the font in a Hex format
+ * compatible with memory initialization (Address depth: 6144).
+ * * @specs
+ * - Font Type    : Full (128 characters)
+ * - Font Size    : 16x24 pixels (Width x Height)
+ * - Encoding     : 2 bytes per row (16-bit horizontal)
+ * - Memory Usage : 6144 bytes (128 chars * 24 rows * 2 bytes)
+ * - Data Width   : 16 bits
+ * * @note    The ASCII characters start at index 32 within the generator logic.
+ *
+ * @author         THLN
+ * @copyright      Copyright (C) 2026 THLN. All rights reserved.
+ ******************************************************************************/
 
 #include <stdio.h>
 
+/* downloaded from http://www.rinkydinkelectronics.com/r_fonts.php */
 const unsigned char Arial_round_16x24[4564-4] = {
     //0x10,0x18,0x20,0x5F,
     0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,  // <space>

@@ -1,3 +1,20 @@
+"""
+*******************************************************************************
+* @file           downloader.py
+* @brief          Binary file downloader using XMODEM protocol.
+* @description    Transmits compiled binary firmware (e.g., PicoRV32 RISC-V) 
+* from a host PC to a target FPGA/Embedded system over a Serial/UART interface.
+* * @details        - Uses the XMODEM protocol with CRC/Checksum support.
+* - Waits for the 'C' (CRC_READY) or NAK signal from target.
+* - Configurable COM port and Baud rate (default: 115200).
+* - Handles file padding with null bytes (0x00).
+*
+* @author         THLN
+* @copyright      Copyright (C) 2026 THLN. All rights reserved.
+* @dependencies   pyserial, xmodem
+*******************************************************************************
+"""
+
 import serial
 import time
 from xmodem import XMODEM
