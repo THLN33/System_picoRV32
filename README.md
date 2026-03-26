@@ -56,7 +56,7 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
 ### 📚 Credits
  * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
  * PicoRV32, UART: By Claire Xenia Wolf [picoRV32](https://github.com/YosysHQ/picorv32).
- * HDMI Core: Based on Sipeed's examples [HDMI](https://github.com/sipeed/TangMega-138K-example/hdmi_colorbar/eda_proj).
+ * HDMI Core: Based on Sipeed's examples [hdmi_colorbar](https://github.com/sipeed/TangMega-138K-example/).
 ---
 
 ## 🛠️ How to Build
