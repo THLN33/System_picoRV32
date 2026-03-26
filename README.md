@@ -101,10 +101,18 @@ Leveraging the extra BSRAM of the 25K for advanced feature.
   <img src="./src/boards/tp25k/tp25k.jpg" alt="Tang Primer 25K HDMI Connections" width="300px">
 </p>
 
-### Software Compilation
-1. Navigate to the `c_code/` directory.
-2. Run the **`build.bat`**
-   
+### Software Bootloader Compilation
+1. Generate binary file
+2. Convert it to boot_mem_init.v using `conv_to_init.c` utility
+3. Copy the file into `c_code/` directory.
+4. Relaunch the synthesis, place-and-route to generate the new bitstream.
+
+### Software App Compilation
+1. Generate binary file
+2. Change the location of the binary file inside downloader.py
+3. Run the **`downloader.py`**
+
+
 ### ⚡ Quick Start
   Since all Tang boards feature onboard USB-JTAG and HDMI connectors:
   * Connect the board via USB-C for power first.
