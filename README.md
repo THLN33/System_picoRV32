@@ -53,6 +53,9 @@ To give you an idea of the footprint, here is how the PicoRV32 + HDMI Controller
 | BSRAM           | 100%         | 100%          | 100%            | 83%             |
 | DSP Blocks      | 20%          | 9%            | 9%              | 17%             |
 
+## 📁 Software sources
+ * The software part is [here](https://github.com/THLN33/picoRV32_HDMI).
+
 ### 📚 Credits
  * Boot Memory: Based on Grug Huhler's work. [picorv32](https://github.com/grughuhler/picorv32).
  * PicoRV32, UART: By Claire Xenia Wolf [picoRV32](https://github.com/YosysHQ/picorv32).
